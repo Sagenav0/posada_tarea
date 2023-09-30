@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    transition: all 0,3s ease-in-out;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+section#fondo {
+    background: linear-gradient(325deg,blue, pink);
+    min-height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center; 
+    
+}
+
+/* Objetos */
+
+#recuerdame {
+    position: absolute;
+    top: 510px;
+    margin: 50px;
+}
+
+    #recuerdame #recuerdame_1 {
+        position: absolute;
+        transform: translateX(-100px);
+    }
+
+    #recuerdame #recuerdame_2 {
+        transform: translateX(100px);
+    }
+
+
+/* Clases */
+
+.icono {
+    background: #00284c;
+    color: #e1e1e5;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    top: 150px;
+    z-index: 3;
+}
+
+    .icono i {
+        font-size: 5em;
+    }
+
+.contenedor {
+    background-color: rgba(250, 250, 250, 0.35);
+    height: 400px;
+    width: 500px;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+
+.formulario {
+    position: absolute;
+    top: 325px;
+    
+}
+
+    .formulario .campos {
+        margin: 50px;
+        font-size: 1em;
+    }
+
+    .formulario input {
+        font-size: 1.5em;
+        text-align: center;
+        padding: 5px;
+        background-color: #395472;
+        border: none;
+        font-family: 'Playfair Display', serif;
+        width: 350px;
+    }
+
+    .formulario ::placeholder {
+        color: #889ab1;
+    }
+
+    .formulario .campos i {
+        font-size: 2em;
+        position: absolute;
+        left: 50px;
+        padding: 5px;
+        background-color: #00284c;
+        color: #e1e1e5;
+    }
+.contenedor .boton {
+    background-color: rgba(250, 250, 250, 0.35);
+    padding: 16px;
+    border: none;
+    width: 400px;
+    height: 60px;
+    font-size: 1.5em;
+    border-radius: 0 0 22px 22px;
+    position: absolute;
+    top: 623px;
+    z-index: 1;
+    box-shadow: inset 0px 16px 16px rgba(0, 0, 250, 0.5);
+    font-family: 'Playfair Display', serif;
+}
+
